@@ -87,6 +87,7 @@ $ fisher install jhillyerd/plugin-git
 | gdt          | list changed files                                   |
 | gdw          | `git diff --word-diff`                               |
 | gdwc         | `git diff --word-diff --cached`                      |
+| gdto         | `git difftool`                                       |
 | gdv          | pipe `git diff` to `view` command                    |
 
 ### Flow
@@ -158,7 +159,7 @@ $ fisher install jhillyerd/plugin-git
 | grbmi        | `git rebase master --interactive`                    |
 | grbmia       | `git rebase master --interactive --autosquash`       |
 | grbd         | `git rebase develop`                                 |
-| grbdd        | `git rebase develop --interactive`                   |
+| grbdi        | `git rebase develop --interactive`                   |
 | grbdia       | `git rebase develop --interactive --autosquash`      |
 | grbs         | `git rebase --skip`                                  |
 | ggu          | fetch & rebase _current-branch_ on top of the upstream branch |
@@ -234,6 +235,7 @@ $ fisher install jhillyerd/plugin-git
 | grev         | `git revert`                                                |
 | grh          | `git reset HEAD`                                            |
 | grhh         | `git reset HEAD --hard`                                     |
+| grhpa        | `git reset --patch`                                         |
 | grt          | cd into the top of the current repository or submodule      |
 | gsh          | `git show`                                                  |
 | gsd          | `git svn dcommit`                                           |
